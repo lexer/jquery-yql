@@ -10,7 +10,7 @@
   
   <script type="text/javascript">
     $(function(){
-      $.yqlQuery('select * from geo.places where text="Orlando"', function(response){
+      $.yql('select * from geo.places where text="Orlando"', function(response){
         console.log(response);
       })
     });

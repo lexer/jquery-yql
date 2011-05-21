@@ -1,6 +1,6 @@
 (function($) {   
   $.extend({  
-    yqlQuery: function(query, callback) {
+    yql: function(query, callback) {
       var yqlURL = "http://query.yahooapis.com/v1/public/yql";
       var data = {
         q: query,
